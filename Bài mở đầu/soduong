@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void display_number(int num) {
+    if (num > 0) {
+        printf("%d là số dương.\n", num);
+    } else if (num < 0) {
+        printf("%d là số âm.\n", num);
+    } else {
+        printf("Số không âm và không âm.\n");
+    }
+}
